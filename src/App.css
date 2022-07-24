@@ -12,11 +12,22 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.head11 img {
+  position: fixed;
+  width: 35px;
+  height: 56px;
+left: 2%;
+}
+.grid-cell-centered {
+  align-self: center;
+}
+
 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
+  text-align: center;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -26,6 +37,25 @@
 
 .App-link {
   color: #61dafb;
+}
+.btn{
+  padding: 6px 12px;
+  font-size: 25px;
+  font-weight: 40;
+  white-space: nowrap;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  text-decoration: none;
+
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
 }
 
 @keyframes App-logo-spin {
